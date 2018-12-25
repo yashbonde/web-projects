@@ -13,15 +13,20 @@ body {
 	width: 200px;
 	height: 200px;
 	position: relative;
-	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
-	background: white;
+	transform: translate(-50%, 100%);
+	overflow: hidden;
 }
 
 .loader-div {
 	width: calc(100% - 16px);
 	height: calc(100% - 16px);
 	border: 8px solid #162534;
+	border-top: 8px solid #09f;
 	border-radius: 50%;
+	animation: spinny 5s linear infinite;
+}
+
+@keyframes spinny {
+	100% {transform: rotate(360deg);}
 }

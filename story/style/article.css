@@ -4,7 +4,7 @@ article {
 	display: grid;
 
 	grid-template-columns: 1fr 0.54in [start] 0.86in 8.0in 0.86in [end] 0.54in 1fr;
-	padding: 0.2in 0;
+	padding-bottom: 0.2in
 }
 
 article * {

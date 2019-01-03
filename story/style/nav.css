@@ -2,14 +2,12 @@
 
 nav {
 	display: grid;
-	background: #11111110;
+	background: #11111100;
 	padding-top: 1.0rem;
 	padding-bottom: 1.0rem;
 	padding-left: 0.5rem;
 	padding-right: 0.5rem;
 	color: #22222280;
-	border-bottom: px;
-	border-color: #000000;
 
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 
@@ -41,7 +39,7 @@ nav a {
     transition: all .5s ease-in-out;
 }
 
-nav a:hover { color: #FFBF99;
+nav a:hover { color: #222222;
 	-moz-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
